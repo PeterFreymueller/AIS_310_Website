@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peter's Emporium</title>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<style type="text/css">
+body {
+	background-image: url(Images/websitebackground.jpg);
+	background-repeat: repeat;
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">Soap Selection</a> </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Soap <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="BarSoap2.html">Bar Soap</a> </li>
+            <li><a href="KitchenSoap3.html">Kitchen Soap</a> </li>
+            <li><a href="LaundrySoap4.html">Laundry Soap</a> </li>
+            <li><a href="HandSoap5.html">Hand Soap</a> </li>
+            <li><a href="NoveltySoap6.html">Novelty Soap</a> </li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right hidden-sm">
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Miscellaneous <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="ContradictoryItems7.html">Contradictory Items</a> </li>
+            <li><a href="PointlessItems8.html">Pointless Items</a> </li>
+            <li role="separator" class="divider"></li>
+            <li><a href="Bitcoins_9.html">Bitcoins</a> </li>
+          </ul>
+        </li>
+      </ul>
+         <a href="Home.html"<form class="navbar-form navbar-center"> <button type="Home" class="icon-bar" align="center">Home</button></form> </a>
+    </div>
+  </div>
+</nav>
+<br>
+<h2 class="text-center">Hand Soap</h2>
+<br>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="Images/DialHandSoap.jpg" width="300" height="410" alt="thumb"/>
+<div class="caption">
+        <h3>Dial</h3>
+          <p> $3.79</p>
+          <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a>
+            <label for="quantity">Qty: </label>
+			<select id="quantity" name="quantity">
+				{% for i in (1..10) %}
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			<option value="9">9</option>
+				{% endfor %}
+			</select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="Images/CarexHandSoap.jpg" width="400" height="200" alt="thumb"/>
+<div class="caption"> 
+          <h3>Carex</h3>
+          <p> $2.49</p>
+          <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a> 
+                      <label for="quantity">Qty: </label>
+			<select id="quantity" name="quantity">
+				{% for i in (1..10) %}
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			<option value="9">9</option>
+				{% endfor %}
+			</select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="Images/SoftHandSoap.jpeg" width="225" height="225" alt="thumb"/>
+<div class="caption">
+          <h3>Soft Soap</h3>
+          <p> $1.79</p>
+          <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a> 
+                      <label for="quantity">Qty: </label>
+			<select id="quantity" name="quantity">
+				{% for i in (1..10) %}
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			<option value="9">9</option>
+				{% endfor %}
+			</select>
+          </p>
+        </div>
+      </div>
+    </div>
+       <div class="container">
+  <div class="row text-center">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="Images/EveryoneHandSoap.jpg" width="400" height="200" alt="thumb"/>
+<div class="caption"> 
+        <h3>Everyone's</h3>
+<p> $18.79</p>
+          <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a> 
+                      <label for="quantity">Qty: </label>
+			<select id="quantity" name="quantity">
+				{% for i in (1..10) %}
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			<option value="9">9</option>
+				{% endfor %}
+			</select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="Images/MeyersHandSoap.jpg" width="355" height="355" alt="thumb"/>
+<div class="caption">
+        <h3>Meyer's</h3>
+          <p> $13.79</p>
+          <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a> 
+            <label for="quantity">Qty: </label>
+			<select id="quantity" name="quantity">
+				{% for i in (1..10) %}
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			<option value="9">9</option>
+				{% endfor %}
+			</select>
+        </p>
+        </div>
+      </div>
+    </div>
+		   </div>
+<br>
+  <nav class="text-center">
+    <ul class="pagination">
+      <li> <a href="LaundrySoap4.html" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a> </li>
+      <li><a href="Home.html">1</a></li>
+      <li><a href="BarSoap2.html">2</a></li>
+      <li><a href="KitchenSoap3.html">3</a></li>
+      <li><a href="LaundrySoap4.html">4</a></li>
+	  <li class="active"><a href="HandSoap5.html">5</a></li>
+      <li><a href="NoveltySoap6.html">6</a></li>
+      <li><a href="ContradictoryItems7.html">7</a></li>
+      <li><a href="PointlessItems8.html">8</a></li>
+      <li><a href="Bitcoins_9.html">9</a></li>
+      <li> <a href="NoveltySoap6.html" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a> </li>
+    </ul>
+  </nav>
+</div>
+<br>
+  <div class="container well">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+            <div>
+              <ul class="list-unstyled">
+                <li><a href="AboutUs.html"> -About Me</a> </li>
+                <br>
+                <li><a href="Shipping.html">-Shipping and Returns</a> </li>
+                <br>
+                <li><a href="FAQ.html">-FAQs</a> </li>
+                <br>
+                <li><a href="Why.html">-Why Purchase Here?</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-8  col-xs-6">
+			<div>
+				<ul class="list-unstyled">
+					<li> <p>
+						*Free shipping option only available to Canada, Alaska, and Hawaii*
+					</p></li>
+				</ul>
+			</div>
+          </div>
+</div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5"> 
+        <address>
+        <strong>Papa Peter's Miscellaneous Pawn Emporium Plus Soap Stash</strong><br>
+        Find your items that contradict their use here!<br>
+        P-Sherman 42 Wallaby Way, Sidney<br>
+        <abbr title="Phone">(Office)</abbr> (202) 456-1111
+      </address>
+        <address>
+        <strong>Peter Freymueller</strong><br>
+        <a href="mailto:#">pjfreymueller@alaska.edu</a>
+        </address>
+      </div>
+    </div>
+  </div>
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © Peter Freymueller. All Rights Reserved. This website is purely fictional and is for a class project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
